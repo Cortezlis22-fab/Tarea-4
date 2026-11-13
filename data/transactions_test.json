@@ -1,0 +1,58 @@
+
+[
+    {
+        "id": "tx_001",
+        "amount": "100.50",
+        "currency": "USD",
+        "timestamp": "2025-03-10 14:22:00",
+        "status": "completed"
+    },
+    {
+        "transaction_id": 204,
+        "total": 10050,
+        "currency_code": "usd",
+        "created_at": "10/03/2025 14:22",
+        "state": "OK"
+    },
+    {
+        "ref": "A-77",
+        "amount": "€99,99",
+        "date": "2025-03-10T14:22:00Z",
+        "result": "success"
+    },
+    {
+        "id": "tx_bad_amount",
+        "amount": "-25.00",
+        "currency": "USD",
+        "timestamp": "2025-03-10 14:22:00",
+        "status": "completed"
+    },
+    {
+        "id": "tx_bad_currency",
+        "amount": "50.00",
+        "currency": "GBP",
+        "timestamp": "2025-03-10 14:22:00",
+        "status": "completed"
+    },
+    {
+        "id": "tx_bad_status",
+        "amount": "20.00",
+        "currency": "USD",
+        "timestamp": "2025-03-10 14:22:00",
+        "status": "refunded"
+    },
+    {
+        "id": "tx_bad_date",
+        "amount": "30.00",
+        "currency": "USD",
+        "timestamp": "2025-99-45 25:61:00",
+        "status": "completed"
+    },
+    {
+        "id": "",
+        "amount": "15.00",
+        "currency": "USD",
+        "timestamp": "2025-03-10 14:22:00",
+        "status": "completed"
+    }
+]
